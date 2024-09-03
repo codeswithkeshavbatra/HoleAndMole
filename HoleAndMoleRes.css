@@ -1,0 +1,29 @@
+/* adjust for small screen size */
+@media (max-width: 768px) {
+    h1 {
+      padding: 20px;
+      font-size: 2rem;
+    }
+  
+    .score {
+      margin: 20px;
+    }
+  
+    .hole::after {
+      bottom: -22px;
+      margin: 6px;
+    }
+  
+    .start-btn {
+      padding: 8px 20px;
+    }
+  
+    .levels > div {
+      margin: 10px;
+    }
+  
+    .game {
+      width: 90%;
+      height: 300px;
+    }
+  }
